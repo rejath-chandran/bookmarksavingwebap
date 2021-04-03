@@ -12,7 +12,7 @@ function createPost(title, due_date, label,links) {
         })
         
     }
-    fetch('https://chromemark.herokuapp.com/api/posts/', data)
+    fetch('https://example.com/api/posts/', data)
     .then(response => response.json())
     .catch(error => console.log(error))
     }
