@@ -11,7 +11,7 @@
   "permissions": [
     "bookmarks",
     "tabs",
-    "https://chromemark.herokuapp.com/"
+    "https://example.com/"
   ],
 
   "browser_action": {
