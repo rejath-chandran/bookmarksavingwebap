@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+  {% block content %}
+    
+     <div>
+    {% for note in notes %}
+      <ul class="list-group">
+  <li class="list-group-item">{{ note}} <span class="badge badge-{{ note.get_label_display}}">{{note.due_date}}</span>
+       <a href="{{note.links}}" class="btn btn-link" role="button" target="_blank" >Link</a></li>
+      </ul>
+       
+    {% endfor %}
+    <div>
+  {% endblock content %}
+
+
+
+
+
